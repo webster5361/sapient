@@ -36,5 +36,9 @@ No modules.
 
 ## Outputs
 
-No outputs.
+| Name | Description |
+|------|-------------|
+| <a name="output_hostname"></a> [hostname](#output\_hostname) | The default hostname of the web app. |
+| <a name="output_name"></a> [name](#output\_name) | The name of the web app. |
+| <a name="output_plan"></a> [plan](#output\_plan) | App Service plan properties for the web app. |
 <!-- END_TF_DOCS -->
