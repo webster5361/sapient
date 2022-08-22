@@ -1,5 +1,10 @@
 # Sapient Interview Problem/Solution
 
+Special note: Per https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/app_service the terraform docs. The resource type azurerm_app_service is deprecated and beginning in version 4.0 of azurerm provider we should use azurerm_linux_web_app or azurerm_windows_web_app moving forward. 
+
+TODO: Fix deprecation issue and move to a more up to date resource type.
+
+
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
