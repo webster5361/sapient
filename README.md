@@ -11,8 +11,9 @@ If you need to update the terraform docs, you will need to ensure terraform-docs
 
 The command you will want to use is:
 
+```
 terraform-docs markdown table --output-file README.md --output-mode inject .
-
+```
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
