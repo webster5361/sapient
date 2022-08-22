@@ -5,6 +5,15 @@ Special note: Per https://registry.terraform.io/providers/hashicorp/azurerm/late
 TODO: Fix deprecation issue and move to a more up to date resource type.
 
 
+Documentation:
+
+If you need to update the terraform docs, you will need to ensure terraform-docs are installed. You can view those instructions here: https://github.com/terraform-docs/terraform-docs
+
+The command you will want to use is:
+
+terraform-docs markdown table --output-file README.md --output-mode inject .
+
+
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
