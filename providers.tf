@@ -1,3 +1,5 @@
+# This was setup as a way to create a consolidated provider and a consolidated
+# backend for our terraform state. In AWS I would use S3 and DynamoDB.
 terraform {
     required_providers {
         azurerm = {
